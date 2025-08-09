@@ -9,7 +9,7 @@ import json
 # genai.configure(api_key="YOUR_GOOGLE_AI_API_KEY")
 
 try:
-    genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+    genai.configure(api_key=st.secrets["AIzaSyAuqiRJ4tFih3VxrRW-ZA6VdTlsYwhJZOk"])
 except Exception:
     st.error("Could not configure Gemini API. Please provide an API key.")
 
