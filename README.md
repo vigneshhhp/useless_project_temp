@@ -57,8 +57,8 @@ This is the demo video of our project.
 
 
 ## Team Contributions
-- SAMEEKSHA PAI: 
-- VIGNESH P: 
+- SAMEEKSHA PAI: Done half of coding and documentation.
+- VIGNESH P: done API Key implementation and done rest of the coding.
 
 
 ---
