@@ -8,10 +8,13 @@ import json
 # For local development, you can paste it here directly
 # genai.configure(api_key="YOUR_GOOGLE_AI_API_KEY")
 
+genai.configure(api_key="AIzaSyAuqiRJ4tFih3VxrRW-ZA6VdTlsYwhJZOk")
+
 try:
-    genai.configure(api_key=st.secrets["AIzaSyAuqiRJ4tFih3VxrRW-ZA6VdTlsYwhJZOk"])
+#     # You will use this part later when you deploy your app online
+     genai.configure(api_key=st.secrets["AIzaSyAuqiRJ4tFih3VxrRW-ZA6VdTlsYwhJZOk"]) 
 except Exception:
-    st.error("Could not configure Gemini API. Please provide an API key.")
+     st.error("Could not configure Gemini API. Please provide an API key.")
 
 
 # --- Gemini Models ---
