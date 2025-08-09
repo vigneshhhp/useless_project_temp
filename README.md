@@ -42,11 +42,17 @@ For Software:
 
 # Screenshots (Add at least 3)
 <img title="PICTURE 1" alt="IMAGE" src="https://github.com/vigneshhhp/useless_project_temp/blob/main/image1.jpeg">
-This is the Main page of our project 
+          This is the Main page of our project 
+
+          
 <img title="PICTURE 2" alt="IMAGE" src="https://github.com/vigneshhhp/useless_project_temp/blob/main/image3.jpeg">
-This is the uploaded image to analyze
+          This is the uploaded image to analyze
+
+          
 <img title="PICTURE 3" alt="IMAGE" src="https://github.com/vigneshhhp/useless_project_temp/blob/main/image2.jpeg">
-The Final Output with rating and roastings.
+          The Final Output with rating and roastings.
+
+          
 
 
 ### Project Demo
