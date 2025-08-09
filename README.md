@@ -41,48 +41,25 @@ streamlit run sadhya.py
 For Software:
 
 # Screenshots (Add at least 3)
-<img title="PICTURE 1" alt="IMAGE" src="
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img title="PICTURE 1" alt="IMAGE" src="https://github.com/vigneshhhp/useless_project_temp/blob/main/image1.jpeg"
+This is the Main page of our project 
+<img title="PICTURE 2" alt="IMAGE" src="https://github.com/vigneshhhp/useless_project_temp/blob/main/image3.jpeg"
+This is the uploaded image to analyze
+<img title="PICTURE 3" alt="IMAGE" src="https://github.com/vigneshhhp/useless_project_temp/blob/main/image2.jpeg"
+The Final Output with rating and roastings.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://youtu.be/hiNWbvs3waQ?si=yHqLx1ieRMIjSNsB
 
-# Additional Demos
-[Add any extra demo materials/links]
+This is the demo video of our project.
+
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- SAMEEKSHA PAI: 
+- VIGNESH P: 
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
