@@ -8,21 +8,13 @@ import os
 from dotenv import dotenv_values
 config = dotenv_values(".env")
 
-# Load variables from .env
-# load_dotenv()
-# print(load_dotenv())
 
-# Get the key
-# API_KEY = os.getenv("GEMINI_API_KEY")
 API_KEY = config["GEMINI_API_KEY"]
 
 import google.generativeai as genai
 genai.configure(api_key=API_KEY)
 
-# ==============================
-# CONFIGURATION
-# ==============================
-#genai.configure(api_key="API_KEY")  # Replace with your actual Gemini API key
+
 
 # Models
 analyzer_model = genai.GenerativeModel('gemini-1.5-flash')
@@ -71,7 +63,7 @@ st.markdown(
 # ==============================
 # APP TITLE
 # ==============================
-st.title("🌿 AI Sadhya Leaf Analyzer & Ammachi’s Judgement 🧐")
+st.title("🌿 The Digital Ammachi- Food Leftover Analyser")
 st.write("Upload your **banana leaf after eating** and let our AI Ammachi roast you like a true Kerala grandma!")
 
 uploaded_file = st.file_uploader("📷 Upload your Sadhya plate photo...", type=["jpg", "jpeg", "png"])
