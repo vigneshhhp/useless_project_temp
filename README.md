@@ -5,43 +5,37 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Make.IT
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: VIGNESH P - GOVT ENGINEERING COLLEGE SREEKRISHNAPURAM
+- Member 2: SAMEEKSHA PAI -  GOVT ENGINEERING COLLEGE SREEKRISHNAPURAM
+
 
 ### Project Description
-[2-3 lines about what your project does]
-
-### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
-
-### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Sadhya Leaf Analyzer is a fun AI that acts like a witty Malayali grandmother. Snap a photo of your banana leaf/plate after eating, and our AI Ammachi roasts your leftovers with hilarious, sharp-witted comments, rating your "food respect."
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Programming language-python
+- Framework-Streamlit
+- Libraries- google generative AI,pillow(PIL),dotenv,json,io,re,os
+- Tools used- Gemini AI,Browser,local machine/cloud deployment environment
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+ Commands:
+   -  python -m venv venv 
+    venv\Scripts\activate         - For create and activate virtual environment
+  - pip install streamlit google-generativeai pillow python-dotenv  -  Python Library
+    
 
 # Run
-[commands]
+streamlit run sadhya.py
 
 ### Project Documentation
 For Software:
