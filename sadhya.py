@@ -5,13 +5,16 @@ import json
 import re
 import io
 import os
-from dotenv import load_dotenv
+from dotenv import dotenv_values
+config = dotenv_values(".env")
 
 # Load variables from .env
-load_dotenv()
+# load_dotenv()
+# print(load_dotenv())
 
 # Get the key
-API_KEY = os.getenv("GEMINI_API_KEY")
+# API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = config["GEMINI_API_KEY"]
 
 import google.generativeai as genai
 genai.configure(api_key=API_KEY)
@@ -19,7 +22,7 @@ genai.configure(api_key=API_KEY)
 # ==============================
 # CONFIGURATION
 # ==============================
-genai.configure(api_key="AIzaSyAuqiRJ4tFih3VxrRW-ZA6VdTlsYwhJZOk")  # Replace with your actual Gemini API key
+#genai.configure(api_key="API_KEY")  # Replace with your actual Gemini API key
 
 # Models
 analyzer_model = genai.GenerativeModel('gemini-1.5-flash')
